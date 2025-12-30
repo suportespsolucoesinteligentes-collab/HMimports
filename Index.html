@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Imports | As Melhores Lupas do Brasil</title>
+    <style>
+        :root {
+            --preto: #0a0a0a;
+            --cinza-xmetal: #4a4a4a;
+            --prata-brilho: #e0e0e0;
+            --gradiente: linear-gradient(145deg, #8e8e8e, #e0e0e0);
+        }
+
+        body {
+            background-color: var(--preto);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 50px 20px;
+            background: radial-gradient(circle, #1a1a1a 0%, #0a0a0a 100%);
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: -2px;
+            background: var(--gradiente);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+
+        .tagline { color: var(--cinza-xmetal); margin-top: 10px; }
+
+        .container { padding: 40px 20px; }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background: var(--gradiente);
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+        }
+
+        .vitrine {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .card {
+            background: #111;
+            padding: 20px;
+            border: 1px solid #222;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover { border-color: var(--prata-brilho); }
+
+        .card h3 { color: var(--prata-brilho); }
+
+        footer { padding: 40px; border-top: 1px solid #222; color: #555; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">HM IMPORTS</div>
+        <p class="tagline">Qualidade X-Metal | Varejo & Atacado</p>
+        <div style="margin-top: 30px;">
+            <a href="#catalogo" class="cta-button">Ver Catálogo</a>
+            <a href="https://wa.me/SEUNUMERO" class="cta-button" style="background: transparent; border: 1px solid white; color: white;">Chamar no Whats</a>
+        </div>
+    </header>
+
+    <div class="container" id="catalogo">
+        <h2>Destaques da Coleção</h2>
+        <div class="vitrine">
+            <div class="card">
+                <h3>Juliet X-Metal</h3>
+                <p>Lentes Polarizadas e Pintura Eletrostática.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+            <div class="card">
+                <h3>Juliet Plasma</h3>
+                <p>O clássico com o melhor ajuste do mercado.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+            <div class="card">
+                <h3>Penny</h3>
+                <p>Estilo e exclusividade em cada detalhe.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+                  <div class="card">
+                <h3>Romeo 1.0</h3>
+                <p>Estilo e exclusividade em cada detalhe.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+                  <div class="card">
+                <h3>Romeo 2.0</h3>
+                <p>Estilo e exclusividade em cada detalhe.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+                  <div class="card">
+                <h3>Double-X</h3>
+                <p>Estilo e exclusividade em cada detalhe.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+                  <div class="card">
+                <h3>Penny</h3>
+                <p>Estilo e exclusividade em cada detalhe.</p>
+                <a href="#" class="cta-button" style="font-size: 0.7rem;">Ver Detalhes</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 HM IMPORTS - Enviamos para todo o Brasil.</p>
+    </footer>
+
+</body>
+</html>

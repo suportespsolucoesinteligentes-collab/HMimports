@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onde Comprar | HM Imports</title>
+    <style>
+        :root {
+            --preto-profundo: #050505;
+            --cinza-metal: #1a1a1a;
+            --prata-chrome: linear-gradient(145deg, #999, #fff, #999);
+            --texto-cinza: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--preto-profundo);
+            color: white;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .logo-area {
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            background: var(--prata-chrome);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p { color: var(--texto-cinza); margin-bottom: 30px; }
+
+        .link-card {
+            background: var(--cinza-metal);
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-card:hover {
+            border-color: #fff;
+            transform: translateY(-3px);
+            background: #222;
+        }
+
+        .link-card img {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .link-info { text-align: left; }
+
+        .link-info span { font-weight: bold; font-size: 1.1rem; display: block; }
+        .link-info small { color: var(--texto-cinza); font-size: 0.8rem; }
+
+        .badge {
+            position: absolute;
+            right: 15px;
+            background: #2ecc71;
+            color: white;
+            font-size: 0.6rem;
+            padding: 3px 8px;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+
+        footer { margin-top: 50px; color: #444; font-size: 0.7rem; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-area">
+            <h1>HM IMPORTS</h1>
+            <p>Escolha sua plataforma de preferência</p>
+        </div>
+
+        <a href="LINK_DO_SEU_MERCADO_LIVRE" class="link-card">
+            <img src="https://img.icons8.com/color/48/mercado-libre.png" alt="Mercado Livre">
+            <div class="link-info">
+                <span>Mercado Livre</span>
+                <small>Compra Garantida e Full</small>
+            </div>
+            <div class="badge">Oficial</div>
+        </a>
+
+        <a href="LINK_DA_SUA_SHOPEE" class="link-card">
+            <img src="https://img.icons8.com/color/48/shopee.png" alt="Shopee">
+            <div class="link-info">
+                <span>Shopee</span>
+                <small>Use seus cupons de frete grátis</small>
+            </div>
+        </a>
+
+        <a href="LINK_DA_SUA_SHEIN" class="link-card">
+            <img src="https://logospng.org/download/shein/logo-shein-icon-256.png" alt="Shein" style="background: white;">
+            <div class="link-info">
+                <span>Shein</span>
+                <small>Nossa loja na Shein Nacional</small>
+            </div>
+        </a>
+
+        <a href="https://wa.me/SEUNUMERO" class="link-card" style="border-color: #25d36633;">
+            <img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp">
+            <div class="link-info">
+                <span>Atacado & Revenda</span>
+                <small>Fale direto com o dono</small>
+            </div>
+        </a>
+
+        <footer>
+            WWW.HMIMPORTS.SITE
+        </footer>
+    </div>
+
+</body>
+</html>
